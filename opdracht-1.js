@@ -36,11 +36,20 @@ console.log(tvOutOfStock);
 //4. Return de objecten;
 //5. Console log de variabele.
 
-const tvWithAmbilight = inventory.filter((typeAmbilight) => {
+const tvAmbilight = inventory.filter((typeAmbilight) => {
     return typeAmbilight.options.ambiLight === true
     })
 
-console.log(tvWithAmbilight);
+console.log(tvAmbilight);
 
 //Opdracht 1d: Schrijf een functie die alle tv's van laagste naar hoogste prijs sorteert. Log de uitkomst in de console.
 
+//1. Declareer een functie;
+//2. Gebruik de sort methode;
+//3. Log de uitkomst.
+
+function tvSorted(tv) {
+    tv.sort((a, b) => a.price - b.price);
+}
+
+tvSorted(inventory)
