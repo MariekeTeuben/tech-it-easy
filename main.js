@@ -1,4 +1,5 @@
 // VOORRAAD ARRAY MET TV'S
+
 const inventory = [
   {
     type: '43PUS6504/12',
@@ -161,3 +162,6 @@ const inventory = [
     sold: 8,
   },
 ];
+
+
+
