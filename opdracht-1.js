@@ -2,7 +2,7 @@
 
 //Opdracht 1a: Gebruik een array-methode om een array te maken met alle tv-type namen. Log de uitkomst in de console.
 
-//1. Maak een variabele aan;
+//1. Maak een variabele aan waarin alle tv typen worden opgeslagen;
 //2. Gebruik de map-methode om de array te doorzoeken;
 //3. Return de waarden: namen van tv's;
 //4. Console log de variabele.
@@ -15,7 +15,7 @@ console.log(typeOfTv);
 
 //Opdracht 1b: Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die volledig uitverkocht zijn. Log de uitkomst in de console.
 
-//1. Maak een variabele aan;
+//1. Maak een variabele aan waarin de uitverkochte tv's worden opgeslagen;
 //2. Gebruik de filter-methode om de array te doorzoeken;
 //3. Geef de zoekcriteria mee: originalStock === sold;
 //4. Return de objecten;
@@ -30,7 +30,7 @@ console.log(tvOutOfStock);
 
 //Opdracht 1c: Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die over AmbiLight beschikken. Log de uitkomst in de console.
 
-//1. Maak een variabele aan;
+//1. Maak een variabele aan waarin de tv's met Ambilight worden opgeslagen;
 //2. Gebruik de filter-methode om de array te doorzoeken;
 //3. Geef de zoekcriteria mee: options.ambiLight === true;
 //4. Return de objecten;
